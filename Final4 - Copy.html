@@ -1,0 +1,311 @@
+<!doctype html>
+
+<html lang=en>
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>A Circle of Mythical Creatures</title>
+	
+	<style type="text/css">
+	
+		/* http://meyerweb.com/eric/tools/css/reset/ 
+		   v2.0 | 20110126
+		   License: none (public domain)
+		*/
+
+		html, body, div, span, applet, object, iframe,
+		h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+		a, abbr, acronym, address, big, cite, code,
+		del, dfn, em, img, ins, kbd, q, s, samp,
+		small, strike, strong, sub, sup, tt, var,
+		b, u, i, center,
+		dl, dt, dd, ol, ul, li,
+		fieldset, form, label, legend,
+		table, caption, tbody, tfoot, thead, tr, th, td,
+		article, aside, canvas, details, embed, 
+		figure, figcaption, footer, header, hgroup, 
+		menu, nav, output, ruby, section, summary,
+		time, mark, audio, video {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+		}
+		/* HTML5 display-role reset for older browsers */
+		article, aside, details, figcaption, figure, 
+		footer, header, hgroup, menu, nav, section {
+			display: block;
+		}
+		body {
+			line-height: 1;
+		}
+		ol, ul {
+			list-style: none;
+		}
+		blockquote, q {
+			quotes: none;
+		}
+		blockquote:before, blockquote:after,
+		q:before, q:after {
+			content: '';
+			content: none;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+		}
+		
+		/*+++Whitespace+++*/	
+	
+	header, footer{
+		background: #83AF25;
+		padding: 4%;
+		margin: -4%;
+	}
+	
+	article{
+		background-color: #F1FCC5;
+		width: 95%;
+		margin: auto;
+		padding: 4%;
+	}
+	
+	h1{
+		font-family: 'Inconsolata', monospace;
+		font-size: 45px;
+		color: #044A27;
+		margin: 0px 0px 0px 78px;		
+	}
+	
+	header>h2{
+		font-family: 'Lora', serif;
+		font-weight: lighter;
+		font-size: 18px;
+		padding-left: 30px;
+		padding-bottom: 2%;
+	}
+
+	h3{
+		font-family: 'Lora', serif;
+		font-size: 20px;
+	}
+	
+	footer{
+		font-family: 'Inconsolata', monospace;
+		font-size: 15px;
+		color: #044A27;
+		font-weight: bold;
+	}
+	
+	#wrapper{
+		width: 93%;
+		margin: auto;
+		background: #DBF474;
+		padding: 3.3%;
+	
+	}
+	
+	ul#navlist{
+		margin-left: 30px;
+		margin-bottom: -1.8%;
+	}
+
+	#navlist li{
+		display: inline;
+		list-style-type: none;
+	}
+
+	#navlist a{
+		padding: 3px 10px;
+	}
+
+	#navlist a:link, #navlist a:visited{
+		color: #044A27;
+		background-color: #DBF474;
+		text-decoration: none;
+		border-left: thin green solid;
+		border-right: thin green solid;
+		border-top: thin green solid;
+	}
+
+	#navlist a:hover{ 
+		color: #DBF474;
+		background-color: #044A27;
+		text-decoration: none;
+	}	
+	
+	#Main{
+		width: 56%;
+		float: left;
+		padding: 2%;
+	}
+	
+	#Side{
+		width: 36%;
+		float: left;
+		padding: 2%;
+	}
+	
+	p, figcaption, h2, h3, footer{
+		letter-spacing: 2px;
+		line-height: 1.5em;
+		padding: 1.5%;
+	}
+	 
+	figure{
+		width: 30%;
+		margin: 5px;
+		padding: 2%;
+
+	}
+	
+	figcaption{
+		font-size: 13px; 
+		padding: 5px;
+		text-align: center;
+		font-style: italic;
+		border: thin black solid;
+	}
+	
+	.pegasus{
+		width: 55%;
+		border: thin black solid;
+	}
+	
+	.pegasus>img{
+		width: 100%;
+		position: relative;
+	}
+	
+	.griffon{
+		width: 55%;
+		border: thin black solid;
+	}
+
+	.griffon>img{
+		width: 100%;
+		position: relative;
+	}
+	
+	.harpy{
+		width: 100%;
+		border: thin black solid;
+	}
+	
+	.harpy>img{
+		width: 100%;
+		position: relative;
+	}
+	
+	blockquote{
+		font-family: 'Lora', serif;
+		letter-spacing: 2px;
+		font-size: 1.4em;
+		line-height: 1.5em;
+		margin: 2% 0% 2% 4%;
+	}
+	
+	blockquote:before{
+		vertical-align: -.3em;
+		line-height: .1em;
+		font-size: 2.5em;
+		content: "\201C";
+	}
+	
+	blockquote:after{
+		vertical-align: -.3em;
+		line-height: .1em;
+		font-size: 2.5em;
+		content: "\201D";
+	}
+	
+	footer{
+		clear: left;
+	}
+	
+	</style>
+
+	<!--[if 1t IE 9]>
+		<script src-"https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html15chiv.js
+		"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<header>
+			<h1>A Circle of Mythical Creatures</h1>
+			<h2>Creatures That Exist from the Depths of our Imagintions</h2>
+		</header>
+
+		</Nav>
+		<div id="NavWrap">
+			<ul id="navlist">
+			<li id="active"></li>
+				<li class="nav"><a href="Final.html">Humans</a></li>
+				<li class="nav"><a href="Final2.html">Land Walker</a></li>
+				<li class="nav"><a href="Final3.HTML">Sea Bearer</a></li>
+				<li class="nav"><a href="Final5.html">Extra</a></li>
+			</ul>
+		</div>
+		</Nav>
+		
+		<div id="Main">
+			<article>
+				<h3>Sky Terminator</h3>
+				
+					<blockquote>Every Ponies happiness rests in you</blockquote>
+					
+				<p>Unicorns are ultimately on of the most magical creature anyone would know about. But in the sky, a pegasus is more renown. This fly
+				horse is recognized in all faiytales, especially in Greek myths. In the Greek myth, Pegasus was the child of Poseidon and Medusa. The winged creature
+				can also be seen to accompany Hercules in Disney's take on Hercules (1997). A term is gaining fast popularity as the show My Little pony is known by
+				most young children. The term alicorn is used to depict a horse, or a pony in this case, that has both the horn of a unicorn and the wings of a pegasus.</p>
+				
+				<figure class="pegasus">
+					<img src="https://i.pinimg.com/originals/d4/d6/74/d4d6747ca71ae3776b1727292f5eab8e.jpg"/>
+					<figcaption>Pegasus</figcaption>
+				</figure>
+				
+				<p>Pegasus are depicted as friendlier than griffons. Griffons are half-lion and half-eagle. The front is an eagle and the back is a lion. These
+				can be depicted similar to those of vultures, ruffian-like and agressive. Being eagle and lion, the creature would be a meat-eater. In some cases
+				the creature is depicted as majestic, gliding through the sky with its eagle wings.</p>
+				
+				<p></p>
+				
+				<figure class="griffon">
+					<img src="https://static.wikia.nocookie.net/harrypotter/images/f/f8/Griffin.png/revision/latest?cb=20170413064633"/>
+					<figcaption>Depiction of Griffon</figcaption>
+				</figure>
+				
+				</article>
+		</div>
+		
+		<div id="Side">
+			<article>
+			<h3>Greek</h3>
+			
+			<p>In Greek mythology, harpies are half-women half-bird creature. The torso and head would be a women and the rest of the body would be of a bird.
+			They are well known for stealing food. In one Greek myth, Phrixus was cursed and blinded. Harpies were cursed to eat from his table, ruining his food.</p>
+			
+			<figure class="harpy">
+				<img src="https://static.wikia.nocookie.net/monster/images/2/28/Harpy.jpg/revision/latest/scale-to-width-down/340?cb=20110129191316"/>
+				<figcaption>Harpy</figcaption>
+			</figure>
+			
+			<p></p>
+			
+			</article>
+		</div>
+
+		<footer>Made in 2021</footer>
+
+	</div>
+
+</body>
+
+</html>
